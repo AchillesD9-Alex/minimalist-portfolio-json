@@ -16,9 +16,14 @@
       },
       "profiles": [
         {
-          "network": "Discord",
-          "username": "AchillesD9",
-          "url": "https://twitter.com/john"
+          "network": "GitHub",
+          "username": "AchillesD9-Alex",
+          "url": "https://github.com/AchillesD9-Alex"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "Alexandre Román",
+          "url": "https://www.linkedin.com/in/alexandre-roman-diaz/"
         }
       ]
     },
@@ -27,8 +32,8 @@
         "name": "RPK Metalforming",
         "position": "Quality Technician",
         "url": "https://rpk-global.com/es/rpk-tarragona",
-        "startDate": "August 2021",
-        "endDate": "August 2023",
+        "startDate": "2021-08-01",
+        "endDate": "2023-08-01",
         "summary": "Responsible for ensuring product quality through the implementation of rigorous controls and effective rejection management. Acted as a link between the production plant, the laboratory, and the Quality and Engineering departments.",
         "highlights": [
           "Knowledge in metal stamping.",
