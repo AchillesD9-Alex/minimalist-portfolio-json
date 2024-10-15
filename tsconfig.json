@@ -1,3 +1,14 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cv":[ /* @cv buscará el archivo JSON donde tenemos nuestra data del CV */
+        "./cv.json"
+      ],
+      "@/*": [
+        "src/*" /*La carpeta src pasa a ser nombrada @ en los paths (ej:imports)*/
+      ]
+    }
+  }
 }

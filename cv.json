@@ -1,0 +1,125 @@
+{
+    "basics": {
+      "name": "Alexandre Roman",
+      "label": "Enthusiastic Junior Fullstack Web Developer with solid Java and Angular experience.",
+      "image": "https://avatars.githubusercontent.com/u/158473735?v=4",
+      "email": "28.alex.roman@gmail.com",
+      "phone": "(+34) 636 738 294",
+      "url": "https://johndoe.com",
+      "summary": "Passionate programmer with a background in quality control and a strong foundation in web development. I thrive on solving problems and creating efficient, user-friendly applications. With experience in metal stamping and quality management, I bring a detail-oriented approach to my programming projects. Currently expanding my skills as a Fullstack Web Developer, I am eager to contribute to innovative projects that make a positive impact.",
+      "location": {
+        "address": "",
+        "postalCode": "43130",
+        "city": "Tarragona",
+        "countryCode": "ES",
+        "region": "Catalonia"
+      },
+      "profiles": [
+        {
+          "network": "Discord",
+          "username": "AchillesD9",
+          "url": "https://twitter.com/john"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "RPK Metalforming",
+        "position": "Quality Technician",
+        "url": "https://rpk-global.com/es/rpk-tarragona",
+        "startDate": "August 2021",
+        "endDate": "August 2023",
+        "summary": "Responsible for ensuring product quality through the implementation of rigorous controls and effective rejection management. Acted as a link between the production plant, the laboratory, and the Quality and Engineering departments.",
+        "highlights": [
+          "Knowledge in metal stamping.",
+          "Handling claims and rejections during audits.",
+          "Presentation and justification of quality indicators using Pareto analysis.",
+          "Preparation and follow-up of selection and recovery instructions (external and internal).",
+          "Design, implementation, and monitoring of corrective and preventive actions.",
+          "Rejection management using the 8D methodology.",
+          "Frequent communication with both national and international clients.",
+          "Collaboration in AMFE, CP, and control guidelines.",
+          "Content creation and training sessions."
+        ]
+      }
+    ],
+    "education": [
+  {
+    "institution": "Fundació Esplai",
+    "url": "https://fundacionesplai.org/",
+    "area": "Fullstack Web Developer",
+    "studyType": "Bootcamp",
+    "startDate": "2024-01",
+    "endDate": "2024-07",
+    "moreInfo": "https://fundacionesplai.org/blog/formacion-2/proyecto-tech-talent-potenciamos-el-talento-joven/"
+  },
+  {
+    "institution": "Ins Comte de Rius",
+    "area": "Laboratory of Analysis and Quality Control",
+    "studyType": "Advanced Vocational Training (CFGS)",
+    "startDate": "2018",
+    "endDate": "2020"
+  }
+    ],
+    "projects": [
+      {
+        "name": "Verdeventura",
+        "url": "https://verdeventura.netlify.app/",
+        "usedTech": "Angular / Google Firebase+Storage / HTML+CSS+Bootstrap",
+        "summary": "Sustainable Development Goals (SDGs) Gamification. Registered users can access fortnightly challenges, earn points, and become environmental stewards who care about the planet and humanity.",
+        "rol": "Web design / Register and validation of users / Challenges, points and ranking implementation / Public and Private Groups: create, search and join options / Profile picture selection and update",
+        "githubCode": "No link at this moment."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Junior",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Java",
+          "Angular",
+          "mySQL",
+          "Google Firebase"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "C1"
+      },
+      {
+        "language": "German",
+        "fluency": "B1",
+        "certification": "European Certification"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Native"
+      },
+      {
+        "language": "Catalan",
+        "fluency": "Native"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Videogames",
+        "keywords": [
+          "RPG",
+          "Strategy"
+        ]
+      },
+      {
+        "name": "Cinema",
+        "keywords": [
+          "Sci-Fi",
+          "Animation"
+        ]
+      }
+    ]
+  }
+  
