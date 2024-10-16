@@ -70,25 +70,130 @@
       {
         "name": "Verdeventura",
         "url": "https://verdeventura.netlify.app/",
-        "usedTech": "Angular / Google Firebase+Storage / HTML+CSS+Bootstrap",
-        "summary": "Sustainable Development Goals (SDGs) Gamification. Registered users can access fortnightly challenges, earn points, and become environmental stewards who care about the planet and humanity.",
-        "rol": "Web design / Register and validation of users / Challenges, points and ranking implementation / Public and Private Groups: create, search and join options / Profile picture selection and update",
-        "githubCode": "No link at this moment."
+        "usedTech":[
+          "Angular",
+          "Google Firebase+Storage",
+          "HTML+CSS+Bootstrap"
+        ],
+        "summary": ["Gamification of Sustainable Development Goals (SDGs).",
+        "Registered users can participate in biweekly scored challenges and earn points to climb the Ranking, becoming environmental stewards who care about the planet and humanity!"
+        ],
+        "rol": [
+        "Web design",
+        "Register and validation of users",
+        "Challenges implementation",
+        "Point system",
+        "Ranking",
+        "Public and Private Groups",
+        "Create, search and join Group options",
+        "Profile picture selection and update"
+        ],
+        "githubCode": "No link at this moment.",
+        "isActive": true
+      },
+      {
+        "name": "Verdeventura PRUEBA SEGUNDA VIEW",
+        "url": "https://verdeventura.netlify.app/",
+        "usedTech":[
+          "Angular",
+          "Google Firebase+Storage",
+          "HTML+CSS+Bootstrap"
+        ],
+        "summary": ["Gamification of Sustainable Development Goals (SDGs).",
+        "Registered users can access fortnightly challenges, earn points, and become environmental stewards who care about the planet and humanity."
+        ],
+        "rol": [
+        "Web design",
+        "Register and validation of users",
+        "Challenges, points and ranking implementation",
+        "Public and Private Groups: create, search and join options",
+        "Profile picture selection and update"
+        ],
+        "githubCode": "No link at this moment.",
+        "isActive": true
+      },
+      {
+        "name": "Verdeventura PRUEBA VIEW",
+        "url": "https://verdeventura.netlify.app/",
+        "usedTech":[
+          "Angular",
+          "Google Firebase+Storage",
+          "HTML+CSS+Bootstrap"
+        ],
+        "summary": ["Gamification of Sustainable Development Goals (SDGs).",
+        "Registered users can access fortnightly challenges, earn points, and become environmental stewards who care about the planet and humanity."
+        ],
+        "rol": [
+        "Web design",
+        "Register and validation of users",
+        "Challenges, points and ranking implementation",
+        "Public and Private Groups: create, search and join options",
+        "Profile picture selection and update"
+        ],
+        "githubCode": "No link at this moment.",
+        "isActive": true
       }
     ],
     "skills": [
       {
-        "name": "Web Development",
-        "level": "Junior",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Java",
-          "Angular",
-          "mySQL",
-          "Google Firebase"
-        ]
+        "name": "HTML",
+        "level": "Junior"
+      },
+      {
+        "name": "CSS",
+        "level": "Junior"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Junior"
+      },
+      {
+        "name": "Java",
+        "level": "Junior"
+      },
+      {
+        "name": "Angular",
+        "level": "Junior"
+      },
+      {
+        "name": "mySQL",
+        "level": "Junior"
+      },
+      {
+        "name": "Google Firebase",
+        "level": "Junior"
+      },
+      {
+        "name": "Problem-solving",
+        "level": "Competency"
+      },
+      {
+        "name": "Adaptability",
+        "level": "Competency"
+      },
+      {
+        "name": "Teamwork",
+        "level": "Competency"
+      },
+      {
+        "name": "Attention to detail",
+        "level": "Competency"
+      },
+      {
+        "name": "Time management",
+        "level": "Competency"
+      },
+      {
+        "name": "Communication",
+        "level": "Competency"
+      },
+      {
+        "name": "Leadership",
+        "level": "Competency"
+      },
+      {
+        "name": "Client relationship management",
+        "level": "Competency"
       }
     ],
     "languages": [
