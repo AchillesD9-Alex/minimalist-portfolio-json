@@ -61,5 +61,24 @@ const { title } = Astro.props; // Extraer el título de las propiedades de Astro
         text-wrap: pretty;
     }
 
+    /*media Querys*/
+
+    /*no imprimir botones*/
+    @media print{
+        .no-print{
+            display: none !important; /* para sobreescribir cualquier otro estilo */
+        }
+    }
+    .print{
+        display: none !important;
+    }
+
+    /* imprimir la info en vez de botones */
+    @media print {
+        .print{
+            display:block !important;
+        }
+    }
+
 </style>
 
