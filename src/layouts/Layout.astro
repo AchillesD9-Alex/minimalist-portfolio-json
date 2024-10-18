@@ -80,5 +80,23 @@ const { title } = Astro.props; // Extraer el título de las propiedades de Astro
         }
     }
 
+    @media print {
+        body {
+            margin: 0; /* Quitar márgenes del body */
+            padding: 4mm; /* Añadir un poco de espacio alrededor */
+        }
+    
+        /* Ajustar encabezados */
+        h1, h2, h3, h4 {
+            page-break-after: avoid; /* Evitar saltos de página después de encabezados */
+        }
+    
+        /* Ajustar párrafos */
+        p {
+            page-break-inside: avoid; /* Evitar saltos de página dentro de párrafos */
+        }
+    }
+    
+
 </style>
 

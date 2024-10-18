@@ -1,12 +1,14 @@
 {
     "basics": {
       "name": "Alexandre Roman",
-      "label": "Enthusiastic Junior Fullstack Web Developer with solid Java and Angular experience.",
+      "label": "Junior Fullstack Web Developer with hands-on experience in backend and frontend technologies."
+
+,
       "image": "https://avatars.githubusercontent.com/u/158473735?v=4",
       "email": "28.alex.roman@gmail.com",
       "phone": "(+34) 636 738 294",
       "url": "https://johndoe.com",
-      "summary": "Passionate programmer with a background in quality control and a strong foundation in web development. I thrive on solving problems and creating efficient, user-friendly applications. With experience in metal stamping and quality management, I bring a detail-oriented approach to my programming projects. Currently expanding my skills as a Fullstack Web Developer, I am eager to contribute to innovative projects that make a positive impact.",
+      "summary": "Passionate programmer with a background in quality control and a strong foundation in web development. I thrive on solving problems and creating efficient, user-friendly applications. Currently expanding my skills as a Fullstack Web Developer, I am eager to contribute to innovative projects that make a positive impact.",
       "location": {
         "address": "",
         "postalCode": "43130",
@@ -49,22 +51,19 @@
       }
     ],
     "education": [
-  {
-    "institution": "Fundació Esplai",
-    "url": "https://fundacionesplai.org/",
-    "area": "Fullstack Web Developer",
-    "studyType": "Bootcamp",
-    "startDate": "2024-01",
-    "endDate": "2024-07",
-    "moreInfo": "https://fundacionesplai.org/blog/formacion-2/proyecto-tech-talent-potenciamos-el-talento-joven/"
-  },
-  {
-    "institution": "Ins Comte de Rius",
-    "area": "Laboratory of Analysis and Quality Control",
-    "studyType": "Advanced Vocational Training (CFGS)",
-    "startDate": "2018",
-    "endDate": "2020"
-  }
+      {
+        "institution": "Fundació Esplai",
+        "url": "https://fundacionesplai.org/",
+        "area": "Fullstack Web Developer",
+        "studyType": "Bootcamp",
+        "name":"Project Tech Talent",
+        "startDate": "2024-01",
+        "endDate": "2024-07",
+        "duration": "576h",
+        "summary": ["Comprehensive training in web development languages and technologies such as HTML, CSS, JS, Java, Spring Boot, MySQL, Angular, Github, and Figma.",
+        "Final project: Development of a web application and its presentation in front of an IT industry panel."],
+        "moreInfo": "https://fundacionesplai.org/blog/formacion-2/proyecto-tech-talent-potenciamos-el-talento-joven/"
+      }
     ],
     "projects": [
       {
@@ -90,48 +89,6 @@
         ],
         "githubCode": "No link at this moment.",
         "isActive": true
-      },
-      {
-        "name": "Verdeventura PRUEBA SEGUNDA VIEW",
-        "url": "https://verdeventura.netlify.app/",
-        "usedTech":[
-          "Angular",
-          "Google Firebase+Storage",
-          "HTML+CSS+Bootstrap"
-        ],
-        "summary": ["Gamification of Sustainable Development Goals (SDGs).",
-        "Registered users can access fortnightly challenges, earn points, and become environmental stewards who care about the planet and humanity."
-        ],
-        "rol": [
-        "Web design",
-        "Register and validation of users",
-        "Challenges, points and ranking implementation",
-        "Public and Private Groups: create, search and join options",
-        "Profile picture selection and update"
-        ],
-        "githubCode": "No link at this moment.",
-        "isActive": true
-      },
-      {
-        "name": "Verdeventura PRUEBA VIEW",
-        "url": "https://verdeventura.netlify.app/",
-        "usedTech":[
-          "Angular",
-          "Google Firebase+Storage",
-          "HTML+CSS+Bootstrap"
-        ],
-        "summary": ["Gamification of Sustainable Development Goals (SDGs).",
-        "Registered users can access fortnightly challenges, earn points, and become environmental stewards who care about the planet and humanity."
-        ],
-        "rol": [
-        "Web design",
-        "Register and validation of users",
-        "Challenges, points and ranking implementation",
-        "Public and Private Groups: create, search and join options",
-        "Profile picture selection and update"
-        ],
-        "githubCode": "No link at this moment.",
-        "isActive": true
       }
     ],
     "skills": [
@@ -152,11 +109,19 @@
         "level": "Junior"
       },
       {
-        "name": "Angular",
+        "name": "Spring Boot",
         "level": "Junior"
       },
       {
         "name": "mySQL",
+        "level": "Junior"
+      },
+      {
+        "name": "Angular",
+        "level": "Junior"
+      },
+      {
+        "name": "Astro",
         "level": "Junior"
       },
       {
