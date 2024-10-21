@@ -1,0 +1,49 @@
+---
+// Props para pasar la ruta del PDF
+interface Props {
+    buttonText: string; // Texto del botón
+}
+const {buttonText } = Astro.props; // Extraemos las props aquí
+---
+
+<button id="download-pdf" class="download-button no-print">{buttonText}</button>
+
+<script>
+    // Escuchamos el evento DOMContentLoaded para asegurarnos de que el DOM esté completamente cargado
+    document.addEventListener('DOMContentLoaded', () => {
+        const downloadButton = document.getElementById('download-pdf');
+        if (downloadButton) {
+            downloadButton.addEventListener('click', () => {
+                const link = document.createElement('a');
+                link.href = '/pdf_file/CV.pdf';
+                // Usar la URL pasada como prop
+                link.download = 'Alexandre Roman - Portfolio.pdf'; // Nombre del archivo descargado
+                document.body.appendChild(link);
+                link.click(); // Simulamos un clic en el enlace para iniciar la descarga
+                document.body.removeChild(link); // Eliminamos el enlace del DOM
+            });
+        } else {
+            console.error('Botón de descarga no encontrado.');
+        }
+    });
+</script>
+<style>
+/* Estilo del botón de descarga */
+.download-button {
+    background-color: #007BFF; /* Color del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    display: block; /* Asegura que el botón se comporte como un bloque */
+    margin: 1px auto 50px; /* Alinea el botón centrado horizontalmente con espacio superior */
+}
+
+.download-button:hover {
+    background-color: #0056b3; /* Color al pasar el cursor por encima */
+}
+</style>
+
