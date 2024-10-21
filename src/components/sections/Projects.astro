@@ -13,7 +13,7 @@ import {projects} from "@cv";
                     <article>
                         <header>
                             <h3>
-                                <a href={url} title={`Take a look at ${name}`}>
+                                <a href={url} target="_blank" rel="noopener noreferrer" title={`Take a look at ${name}`}>
                                 {name}
                                 </a>
                                 {
@@ -62,7 +62,7 @@ import {projects} from "@cv";
     /*Añado span para separar "QUE TIPO de proyecto es" de "QUE PUEDE HACER el proyecto"*/
     article span{ /* Style parecido a <p> de Layout*/
     color: #666;
-    font-size: .75rem;
+    font-size: .8rem;
     line-height: 1.2;
     margin: 0;
     text-wrap: pretty;
@@ -108,7 +108,7 @@ article h3 span {
         border-radius: 6px;
         background: #ddd;
         color: #444;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         font-weight: 500;
         padding: 0.2rem 0.6 rem;
     }
