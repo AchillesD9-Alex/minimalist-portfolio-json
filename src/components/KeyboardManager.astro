@@ -1,7 +1,6 @@
 ---
 // Importaciones necesarias
 import { basics } from '@cv';
-import { jsPDF } from "jspdf";
 const { profiles } = basics;
 
 // Reutilizamos los iconos de nameIcon.astro
@@ -53,7 +52,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ></ninja-keys>
 
 <script>
-  import jsPDF from "jspdf";
   import "ninja-keys";
 
   const ninja = document.querySelector("ninja-keys");
