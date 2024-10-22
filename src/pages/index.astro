@@ -10,6 +10,9 @@ import KeyboardManager from '@/components/KeyboardManager.astro'
 import {basics} from '@cv'
 import DownloadButton from '@/components/DownloadButton.astro';
 const {name, label} = basics
+
+// Detección de dispositivo móvil
+const isMobile = typeof window !== 'undefined' && /Mobi|Android/i.test(navigator.userAgent);
 ---
 
 <Layout title=`${name}'s Portfolio - ${label}`>
@@ -24,7 +27,7 @@ const {name, label} = basics
 
 	<DownloadButton buttonText="Download CV as PDF" />
 
-	<KeyboardManager />
+	{!isMobile && <KeyboardManager />} <!-- Ocultar KeyboardManager en móvil -->
 
 
 </Layout>
