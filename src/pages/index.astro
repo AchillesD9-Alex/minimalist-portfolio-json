@@ -12,7 +12,9 @@ import DownloadButton from '@/components/DownloadButton.astro';
 const {name, label} = basics
 
 // Detección de dispositivo móvil
-const isMobile = typeof window !== 'undefined' && /Mobi|Android/i.test(navigator.userAgent);
+
+	const isMobile = typeof window !== 'undefined' && /Mobi|Android/i.test(navigator.userAgent);
+
 ---
 
 <Layout title=`${name}'s Portfolio - ${label}`>
